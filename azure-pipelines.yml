@@ -9,6 +9,7 @@ trigger:
 pool:
   vmImage: ubuntu-18.04
 
-steps:
-- script: echo Help!
-  displayName: 'Run a one-line script'
+jobs:
+ - job: Step1
+   steps:
+   - script: echo "Help!"
